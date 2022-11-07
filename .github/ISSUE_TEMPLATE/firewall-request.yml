@@ -17,7 +17,7 @@ body:
     attributes:
       label: Environment
       description: What environment are you requesting a change for?
-      options:
-        - Dev
-        - Test
-        - Prod
+      options: 
+        - environment: Dev
+        - environment: Test
+        - environment: Prod

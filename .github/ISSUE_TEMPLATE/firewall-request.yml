@@ -4,9 +4,11 @@ title: "[Firewall Change Request]"
 labels: "[firewall]"
 assignees: karimelmel
 body:
-  - type: checkboxes
+  - type: input
+    id: SystemId
     attributes:
-      label: Firewall checkbox
-      options:
-      - label: Testing
-        required: true
+      label: System Id
+      description: What is the id of the system you are requesting an opening for?
+      placeholder: e.g. IC-2000
+    validations:
+      required: false

@@ -9,6 +9,16 @@ body:
     attributes:
       label: System Id
       description: What is the id of the system you are requesting an opening for?
-      placeholder: e.g. IC-2000
+      placeholder: e.g. XX-2000
     validations:
       required: false
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Environment
+      Description: What environment are you requesting a change for?
+      multiple: true
+      options:
+        - Dev
+        - Test
+        - Prod

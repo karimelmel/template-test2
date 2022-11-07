@@ -1,8 +1,8 @@
 ---
-name: Firewall request
-about: Request a firewall change
-title: ''
-labels: firewall change request
+name: Firewall Change Request
+description: Submit a change request for firewall changes
+title: "[Firewall Change Request]"
+labels: "[firewall]"
 assignees: karimelmel
 
 ---

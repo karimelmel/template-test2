@@ -17,7 +17,6 @@ body:
     attributes:
       label: Environment
       Description: What environment are you requesting a change for?
-      multiple: true
       options:
         - Dev
         - Test
